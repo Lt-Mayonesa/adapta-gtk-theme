@@ -49,8 +49,7 @@ $base_color: if($nokto == false, #FFFFFF,
 $secondary_base_color: mix($base_color, $bg_color, 5%);
 $secondary_dark_color: if($nokto == false, mix(#FFFFFF, #ECEFF1, 60%),
                                            mix(#111111, #000000, 5%));
-$light_color: if($nokto == false, $base_color,
-                                  mix(#111111, #000000, 50%));
+$light_color: if($nokto == false, $base_color, #090909);
 
 $fill_color: shellopacity($fg_color, 0.25);
 $semi_fill_color: shellopacity($fg_color, 0.12);
