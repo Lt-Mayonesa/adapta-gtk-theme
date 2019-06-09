@@ -117,7 +117,7 @@ window.inactive.button.disabled.image.color: #3B464B
 
 
 # Menu
-menu.border.color: #212B30
+menu.border.color: #0F0F0F
 
 menu.title.bg: flat solid
 menu.title.bg.color: #28343A

@@ -434,7 +434,7 @@ $icon_size: 16px;
   width: 32px; // setting under 32px causes blurred window-list icons
   color: $osd_fg_color;
   background-color: $panel_bg_color;
-  font-weight: 700;
+  font-weight: 400;
 
   &:highlight { background-color: $accent_fill_color; }
 }
@@ -1118,7 +1118,7 @@ $ws_thumb_spacing: 32px;
   &-subject {
     padding-top: 10px;
     padding-bottom: 6px;
-    
+
     &:ltr { padding-left: 17px; }
     &:rtl { padding-right: 17px; }
   }
@@ -1856,7 +1856,7 @@ $ws_thumb_spacing: 32px;
 
   &-label {
     color: $osd_fg_color;
-    font-weight: 700;
+    font-weight: 400;
 
     &:hover,
     .applet-box:hover &,
@@ -1897,7 +1897,7 @@ $ws_thumb_spacing: 32px;
     @include fontscaling($ref_size * 1.0);
     margin: 0;
     color: $fg_color;
-    font-weight: 700;
+    font-weight: 400;
   }
 }
 
@@ -1934,7 +1934,7 @@ $ws_thumb_spacing: 32px;
     color: $osd_fg_color;
   }
 
-  &-drag-placeholder { 
+  &-drag-placeholder {
     border: 2px solid $accent_color;
     background-color: shellopacity($accent_color, 0.8);
   }
@@ -2257,7 +2257,7 @@ $bottom_gap: 4px;
   .window-icon-list-numlabel {
     @include fontscaling($ref_size * 0.9);
     color: $selected_fg_color;
-    font-weight: 700;
+    font-weight: 400;
   }
 }
 
@@ -2293,4 +2293,3 @@ StBin.menu {
     }
   }
 }
-
